@@ -1,0 +1,37 @@
+
+body{
+    background-color: #f8eaea;
+}
+th {
+    border-bottom: 1px solid grey;
+}
+td {
+    border-top: 1px solid grey; 
+    padding-left: 5px;
+}
+#item-1 {
+    background-color: aqua;
+    width: 460px;
+
+}
+#item-2 {
+    background-color: rgb(114, 102, 102);
+    width: 460px;
+    padding: 20;
+    display: flex;
+
+}
+#item-3 {
+    background-color: rgb(201, 82, 82);
+    width: 460px;
+
+}
+.table-content {
+   border: solid 1px rgb(22, 22, 73);
+    color: rgb(47, 47, 116);
+}
+
+.h2-tit {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 24px;
+}
