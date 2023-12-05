@@ -1,7 +1,7 @@
 
 body{
     font-family: 'Anonymous Pro', monospace;
-    background-color: black;
+    background-color: #F0F0F0;
 }
 
 #main {
@@ -17,12 +17,31 @@ body{
     width: 200px;
     height: 200px;
 }
-.txt-blanco {
+.txt-xl{
+    font-size: 48px;
+}
+.txt-l{
+    font-size: 32px;
+}
+.txt-n {
+    font-size: 16px;
+}
+.txt-s {
+    font-size: 12px;
+}
+.txt-xs{
+    font-size: 10px;
+}
+.txt-gray {
+    color: rgb(158, 154, 154);
+}
+
+.txt-white{
     color: white;
     
-.txt-gris{
-    color: white;
-    font-size: 52px;
+}
+.box-txt{
+    max-width: 900px;
 }
 .separator {
     width: 90%;
@@ -31,19 +50,22 @@ body{
 }
 .content-centre {
     display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
     justify-content: center;
+    align-items:center;
 }
 .left-column {
     width: 30%;
-    border: 2px solid blanchedalmond;
     height: 90vh;
-    background-color: rgb(139, 134, 134);
+    background-color: rgb(8, 8, 130);
     margin-top: 20px;
     padding: 20px;
 }
 .rigth-column {
-    width: 70%; border: 2px solid rgb(49, 41, 28);
+    width: 70%; 
     height: 90vh;
     margin-top: 20px;
-    background-color: blue;
+    background-color: rgb(235, 235, 247);
+    padding: 20px;
 }
