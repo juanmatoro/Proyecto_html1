@@ -31,8 +31,30 @@ nav {
 section {
     width: 100%;
 }
+article {
+  width: 60%;
+}
+aside {
+  width: 30%;
+}
+.hero-home {
+  display: flex;
+  background-image: url(asets/estudio1-1.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  min-height: 50vh;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  column-gap: 20px;
+}
 .logo {
     width: 280px;
+}
+.txt-white {
+  color: #fff;
 }
 
 /* Style nav menu */
@@ -65,3 +87,49 @@ section {
   .topnav .icon {
     display: none;
   }
+
+  .btn-orange {
+    color: #fff;
+    background-color: #FF6501;
+    border-color: #FF6501
+    ;
+}
+.btn-orange:hover {
+  color: #FF6501;
+  background-color: #ffffff;
+  border-color: #FF6501
+  ;
+}
+.btn-orange:active {
+  color: white;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+  background-color: #007da7;
+}
+.content {
+  display: flex;
+  flex-direction: column;
+  column-gap: 20px;
+  row-gap: 20px;
+  align-items: center;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+}
+.envol {
+  display: flex;
+  flex-direction: row;
+  column-gap: 20px;
+  row-gap: 20px;
+  align-items: center;
+  flex-wrap: wrap;
+  max-width: 1440px;
+  padding: 20px;
+
+}
+.separador {
+  background-color: #333;
+  height: 3px;
+  width: 100%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
