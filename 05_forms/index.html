@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Formularios 1</title>
+</head>
+
+<body>
+    <div class="container2">
+
+        <h1>Rellena el formulario, cara pan</h1>
+        <form action="GET" target="#">
+
+            <div class="container">
+
+                <div>
+                    <label for="nombre" class="label">Escribe tu nombre, si lo tienes...</label><br>
+                    <input type="text" id="nombre" name="nombre" class="cajas">
+                </div>
+                <div>
+                    <label for="apellido1" class="label">Apellido no tendras, pero ponte uno</label><br>
+                    <input type="text" id="apellido1" name="apellido1" class="cajas">
+                </div>
+                <div>
+                    <label for="apellido2" class="label">Segundo apellido??? ;)</label><br>
+                    <input type="text" id="apellido2" name="apellido2" class="cajas">
+                </div>
+                <div>
+                    <label for="email" class="label">Dinos tu email anda</label><br>
+                    <input type="email" id="email" name="email" class="cajas">
+                </div>
+                <div>
+                    <label for="mayor" class="label">Eres mayor de edad</label><br>
+                    <select id="mayor" name="mayor" size="3" class="cajas grande">
+                        <option value="si">si</option>
+                        <option value="No">No</option>
+
+                    </select>
+
+                </div>
+                <div>
+                    <label for="tel" class="label">Pon tu telefon, pero el de verdad</label><br>
+                    <input type="tel" id="telefono" name="telefono" class="cajas">
+                </div>
+                <div>
+
+                    <input type="submit" onclick="checkForm()" value="Enviar" class="enviar">
+                </div>
+            </div>
+        </form>
+
+        </disv>
+            <script>
+                function checkForm() {
+                    const nombre = document.querySelector('#nombre');
+                    const apellido1 = document.querySelector('#apellido1');
+                    const apellido2 = document.querySelector('#apellido2');
+                    const email = document.querySelector('#email');
+                    const telefono = document.querySelector('#nombre');
+                    const mayor = document.querySelector('#mayor');
+                    
+                    if (nombre.value !== "" && apellido1.value !== "" && apellido2.value !== "" && email.value !== "" && telefono.value !== "" && mayor.value) {
+                        alert('es correcto');
+                    } else {
+                        alert('error');
+                    }
+                }
+                </script>
+        </div>
+
+</body>
+
+</html>

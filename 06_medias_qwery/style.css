@@ -1,21 +1,42 @@
 .container {
+    margin: 40px auto;
     background-color: black;
-    width: 125px;
-    height: 125px;
-}
-
-@media screen and( max-width: 576px) {
-    .container {
-        background-color: rgb(198, 43, 43);
-        
-    }
+    width: 900px;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
     
 }
+.card {
+    width: 250px;
+    height: 250px;
+    background-color: aquamarine;
+    margin: 10PX;
+}
+
+/* MOVIL */
+@media screen and (max-width: 576px) {
+    .container {
+        background-color: rgb(198, 43, 43);
+        width: 370px;
+        
+    }
+    .card {
+    width: 120px;
+    height: 120px;
+    background-color: rgb(99, 130, 119);
+    margin: 10PX;
+    }
+    
+
+}
+
+
 
 @media screen and(max-width:576px) {
     .container {
-        background-color: #f7f7f7f;
-        width: 250px;
-        height: 250px;
+        background-color: #f7f7f7;
+
     }
 }

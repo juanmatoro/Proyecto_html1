@@ -1,0 +1,25 @@
+.contenedor {
+    margin: 50px auto;
+    max-width: 1500px;
+    min-width: 375px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    background-color: beige;
+    align-items: center;
+    justify-content: center;
+}
+
+.sice {
+    max-width: 220px;
+    width: 130px;
+    height: 130px;
+    min-width:130px;
+    margin: 10px;
+    border: 1px solid magenta;
+    
+}
+.color1 {
+    background-color: blue;
+}
+
